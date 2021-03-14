@@ -1,4 +1,4 @@
-baseURL = "https://www.slavs.com.au"
+baseURL = "https://www.slavs.com.au/"
 languageCode = "en-us"
 title = "Rob Slavin"
 theme = "hugo_theme_pickles"
