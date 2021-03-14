@@ -4,10 +4,12 @@ date: 2017-03-29
 draft: false
 ---
 
-### Determining x-value and quiet zones
-You can use the following formula to determine the x Value of a barcode.
+### Determining the X-Dimension and quiet zones
 
-![formula for determining x-value](/images/formula.png "Formula for determining x-value")
+The X-Dimension is the narrowest bar or whitespace in a barcode.
+You can use the following formula to determine the X-Dimension of a barcode.
+
+![Formula for determining X-Dimension](/images/formula.png "Formula for determining X-Dimension")
 
 
 | Variable | Description                                     | Value   |
@@ -16,9 +18,9 @@ You can use the following formula to determine the x Value of a barcode.
 | b        | The number of dots that make up a bar (integer) |    1..n |
 | n        | The printer's dots per inch (dpi)               |  203/300|
 
-When scanning a barcode using the barcode verifier you can deduce the dpi of the printer by using the above formula.
+When scanning a barcode using a barcode verifier, you can deduce the label printer's dpi using the above formula.
 
-If the barcode verifier gives me an x-value of 334μm I can determine the true x-value by trialling different values of n
+For example, if the barcode verifier gives me an X-Dimension of 334μm, I can determine the what was the intended X-Dimension by trialing different values of n:
 
 b = (25.4 * n) / 334 
 
@@ -27,13 +29,12 @@ b = (25.4 * 5) / 0.334 = 380.24 - 5 is not likely as it is not close to either 2
 b = (25.4 * 4) / 0.334 = 304.19 - Our number of dots is likely to be 4 as this is close to 300 dpi.
 
  
-
-Therefore, the true x-value will be:
+Therefore, the true X-Dimension will be:
 
 (25.4 / 300) * 4 = 0.339
 
 #### Calculating the quiet zone
-The quiet zone for the barcode is to be 10 times the x-value, so 10(0.339) = 3.39mm
+The quiet zone for the barcode is to be 10 times the X-Dimension, so 10(0.339) = 3.39mm
 
 
 ### Calculating the width of a Code 128 Barcode
@@ -42,17 +43,17 @@ The following formulas can be used to calculate the width of a Code 128 barcode 
 
 **Code128 Subset A/B**
 
-![XXXXX](/images/formula3.png "XXXXX")
+![Formula to calculate the width of a Code128 Subset A/B barcode](/images/formula3.png "Formula to calculate the width of a Code128 Subset A/B barcode")
 
 **Code128 Subset C**
 
-![XXXXX](/images/formula3.png "XXXXX")
+![Formula to calculate the width of a Code128 Subset C barcode](/images/formula3.png "Formula to calculate the width of a Code128 Subset A/B barcode")
 
 
 | Variable | Description                                     |
 | ---------| ------------------------------------------------|
 | w        | Overall barcode width (in mm)                   |
 | c        | Number of characters being encoded              |
-| x        | x-value (in mm)                                 |
+| x        | X-Dimension (in mm)                                 |
 
 **Note: The above formulas do not apply to barcodes that comprise of multiple subsets.**
