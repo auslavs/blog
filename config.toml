@@ -16,7 +16,7 @@ theme = "hugo_theme_pickles"
   authorwebsite = "www.slavs.com.au"
   avatar = "/images/profile.jpeg"
   # contact = "Your contact link (ex. mailto:foo@example.com)"
-  bio = "Your short bio"
+  bio = "Engineer. Reluctant blogger."
   # Short subtitle/tagline. This is displayed in the header.
   subtitle = "A blog seems easier than remembering things."
   # Logo image. This is displayed ogp image.
