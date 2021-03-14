@@ -1,7 +1,7 @@
 ---
 title: "Code 128 Barcode Properties"
 date: 2017-03-29
-draft: true
+draft: false
 ---
 
 ### Determining x-value and quiet zones
