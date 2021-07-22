@@ -2,6 +2,7 @@
 title: "Label Printing: Thermal Transfer vs Direct Thermal"
 date: 2021-05-19
 draft: false
+tags: ['Label Printing']
 ---
 
 The logistics industry favours thermal printing due to its ability to produce accurate images with excellent edge definition, making it ideal for printing barcodes. There are two thermal printing methods available; Thermal Transfer and Direct Thermal.
@@ -23,6 +24,7 @@ Print heads wear different between Thermal Transfer and Direct Thermal as the pr
 One of our suppliers state that a Thermal Transfer printhead will last approximately 1 to 2 years, whereas a Direct Thermal Printhead's lifetime will last approximately 50-75% of the Thermal Transfer printhead, roughly equating to 3 printheads every two years.
 
 ### Cost
+
 The cost difference is hard to determine as it is dependant on the quality and quantity of the labels, environmental factors, and how well the equipment is maintained.
 
 If you are concerned with the cost to operate. In that case, the printer supplier could assist by providing a cost comparison. You would need to supply some details, such as the size of the label and the frequency of printing required.
@@ -30,6 +32,7 @@ If you are concerned with the cost to operate. In that case, the printer supplie
 The general consensus seems that Direct Thermal Labels will cost more than Thermal Transfer labels plus ribbon; However, operational costs of maintaining the supplies of ribbon and the time to change ribbons increases cost as ribbons and labels are often not changed at the same time.
 
 ### Industry Preference
+
 The label printer suppliers that I work with state that the industry prefers the Direct Thermal approach. 80% of one supplier Label Printer Applicators (LPAs) sold are Direct Thermal. However, it should be noted that our LPA suppliers are much more active in the FMCG production space rather than the logistics (personal observation).
 
 ### My Preference

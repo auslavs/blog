@@ -2,6 +2,7 @@
 title: "Code 128 Barcode Properties"
 date: 2017-03-29
 draft: false
+tags: ['Label Printing']
 ---
 
 ### Determining the X-Dimension and quiet zones

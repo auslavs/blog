@@ -2,6 +2,7 @@
 title: "Asciidoctor PDF: Override the document theme to make tables the full page width"
 date: 2021-05-16
 draft: false
+tags: ['Asciidoc','Asciidoctor PDF']
 ---
 
 ### TL;DR
