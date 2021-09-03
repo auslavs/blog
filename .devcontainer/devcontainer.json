@@ -28,7 +28,8 @@
 		"bungcip.better-toml",
 		"davidanson.vscode-markdownlint",
 		"ms-azuretools.vscode-azurestaticwebapps",
-		"ms-azuretools.vscode-azurefunctions"
+		"ms-azuretools.vscode-azurefunctions",
+		"znck.grammarly"
 	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
