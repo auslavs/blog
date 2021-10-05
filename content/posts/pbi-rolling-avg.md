@@ -63,7 +63,7 @@ Rolling Avg. (10mins) =
         AVERAGEX(_Table, Rates_Table[MeasurementPoint])
 ```
 
-This should now create a column with a rolling average in you table.
+This should now create a column with a rolling average in your table.
 
 Two important points to note for this method:
 
