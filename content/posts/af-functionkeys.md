@@ -11,7 +11,7 @@ So it would only work once, and then the caller would be locked out the next tim
 I raised a ticket with Microsoft, and the support engineer let me know that function key changes may be triggered by:
 
 1. A customer revokes/renews function keys or host keys in Portal/Azure CLI
-2. A customer makes a PUT/POST/DELETE request on a [Key Management API
+2. A customer makes a PUT/POST/DELETE request via the Key Management API
 3. A customer removes the webjobs secret files from the function app's file system or azure-webjobs-secrets blob storage
 4. A customer changes MACHINEKEY_DecryptionKey app setting
 5. A customer uses keyvault to store the function keys and change the value of it.
