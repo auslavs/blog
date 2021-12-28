@@ -2,7 +2,7 @@
 title: "ConfigurationBuilder - How do I do that again?"
 date: 2021-12-28
 draft: false
-tags: ['dotnet','F#']
+tags: ['dotnet','fsharp']
 ---
 
 Often when starting a new F# app, there comes a time when I want to read some configuration settings from a file, which can be overridden by environmental variables when running in production. This is closely followed by head-scratching as I try to remember how [ConfigurationBuilder](https://docs.microsoft.com/en-us/dotnet/api/microsoft.extensions.configuration.configurationbuilder?view=dotnet-plat-ext-6.0) works and what NuGet packages I need.
