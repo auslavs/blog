@@ -51,3 +51,9 @@ az webapp list --query "[?state=='Stopped'].{Name:name, Location:location, State
 ```bash
 az cosmosdb list --output table
 ```
+
+### Save CLI output as JSON
+
+```bash
+az cosmosdb list -o json | Out-File -Path "C:\database.json"
+```
