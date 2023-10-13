@@ -48,8 +48,16 @@ az webapp list --query "[?state=='Stopped'].{Name:name, Location:location, State
 
 ### Cosmos DB
 
+#### Cosmos DB - list all
+
 ```bash
 az cosmosdb list --output table
+```
+
+#### Cosmos DB - list databases _without_ Automatic Failover
+
+```bash
+az cosmosdb list --query "[?!enableAutomaticFailover].{AccountName:name, Failover:enableAutomaticFailover}" --output table
 ```
 
 ### Save CLI output as JSON
