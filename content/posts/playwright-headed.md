@@ -1,6 +1,6 @@
 ---
 title: "Playwright - Running tests in headed mode with Jetbrains Rider"
-date: 2023-12-30
+date: 2025-01-16
 draft: false
 tags: ['dotnet','playwright', 'rider']
 ---
