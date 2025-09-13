@@ -9,11 +9,11 @@ theme = "hugo_theme_pickles"
   custom_css = ["/css/custom.css"]
   # Social accounts. Link to these accounts are displayed in the header and
   # footer
-  twitter = "@iamslavs"
+  twitter = "iamslavs" # remove '@' so template doesn't render '@@'
   github = "auslavs"
   linkedin = "robslavin"
   author = "Rob Slavin"
-  authorwebsite = "www.slavs.com.au"
+  authorwebsite = "https://www.slavs.com.au"
   avatar = "/images/profile.jpeg"
   # contact = "Your contact link (ex. mailto:foo@example.com)"
   bio = "Engineer. Reluctant blogger."
