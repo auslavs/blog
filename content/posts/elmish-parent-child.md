@@ -5,8 +5,6 @@ draft: false
 tags: ['F#', 'Elmish', 'Feliz', 'React', 'Functional Programming', 'Architecture Patterns']
 ---
 
-# Parent-Child Communication in F# Elmish - How do I do that again?
-
 Often when building larger Elmish applications with Feliz, there comes a time when you need child components to talk back to their parents. This is closely followed by head-scratching as I try to remember what the best pattern is and inevitably ending up with tightly coupled components that are a pain to test and reuse.
 
 The below guide should set you straight until the next time you forget which approach to use.
