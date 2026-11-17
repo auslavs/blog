@@ -1,7 +1,6 @@
 ---
 title: "First Thoughts on C# 15 Unions"
-date: 2026-11-17
-draft: true
+date: 2026-11-15
 tags: ['dotnet', 'csharp', 'fsharp']
 ---
 
@@ -11,7 +10,7 @@ After years of working in F#, I've recently moved to a C# team. So the timing of
 
 Discriminated unions are one of the F# features I've come to rely on, and I was keen to see what C# had come up with. I was excited, but cautiously optimistic about whether the implementation would meet my expectations.
 
-I watched [Mads Torgersen and Dustin Campbell's presentation at Build 2026](https://www.youtube.com/watch?v=7qW92AwlrjM), and initially things were looking pretty good.
+I watched {{< new-tab-link href="https://www.youtube.com/watch?v=7qW92AwlrjM" >}}Mads Torgersen and Dustin Campbell's presentation at Build 2026{{< /new-tab-link >}}, and initially things were looking pretty good.
 
 Then they introduced a nullable type.
 
