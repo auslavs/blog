@@ -63,7 +63,7 @@ string Describe(MaybePet pet) => pet switch
 };
 ```
 
-The compiler requires a `null` arm because either case could contain null.
+In this example, omitting the `null` arm produces warning CS8655 because the compiler tracks the union’s contents as possibly null.
 
 That's reasonable enough, but which case was it? A null `Cat` or a null `Dog`?
 
